@@ -24,3 +24,5 @@ Route::get('/show/{id}',[EmployeeController::class,'index']);
 Route::get('/create',[EmployeeController::class,'create']);
 Route::post('/store',[EmployeeController::class,'store']);
 Route::post('/update/{id}',[EmployeeController::class,'update']);
+
+?>
